@@ -23,11 +23,10 @@ header {
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background: red;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 19;
+  z-index: 99;
 }
 
 .logo {
