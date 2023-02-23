@@ -70,3 +70,7 @@ header {
   transition: .5s;;
 }
 
+.navigation .btnLogin-popup:hover{
+  background: #fff;
+  color: #000;
+}
