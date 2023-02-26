@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,48 @@
     <title>Website with login and registration</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
         <h2 class="logo">Julio Quezada</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button type="button" class="btnLogin-popup">Login</button>
+        </nav>
     </header>
+    <div class="wrapper">
+        <div class="form-box login"></div>
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input name="email" type="email" placeholder="Enter email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input name="password" type="password" placeholder="Enter password" required>
+                <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="ligin-register">
+                <p>Do not have an account?
+                <a href="#" class="register-link">Register</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
