@@ -8,6 +8,8 @@
   --light-gray: #f5f5f5;
   --white: #fff;
   --dark-gray: #333;
+  --green: #2ecc71;
+  --red: #e74c3c;
 }
 
 body {
@@ -61,4 +63,24 @@ form {
 .form-control input:focus {
   outline: 0;
   border-color: var(--dark-gray);
+}
+
+.form-control.success input {
+  border-color: var(--green);
+}
+
+.form-control.error input {
+  border-color: var(--red);
+}
+
+.form-control small {
+  color: var(--red);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
 }
