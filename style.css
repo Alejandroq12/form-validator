@@ -48,3 +48,17 @@ form {
   display: block;
   margin-bottom: 5px;
 }
+
+.form-control input {
+  border: 2px solid var(--light-gray);
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: var(--dark-gray);
+}
