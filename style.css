@@ -10,6 +10,7 @@
   --dark-gray: #333;
   --green: #2ecc71;
   --red: #e74c3c;
+  --light-blue: #3498db;
 }
 
 body {
@@ -83,4 +84,17 @@ form {
 
 .form-control.error small {
   visibility: visible;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: var(--light-blue);
+  border: 2px solid var(--light-blue);
+  border-radius: 2px;
+  color: var(--white);
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
 }
